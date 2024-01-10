@@ -10,7 +10,8 @@ The program reads alternating sets of references (a total of q) from each trace 
 
 	./something “number of frames” “number of references” “replacement 	algorithm”
 Where all three arguments can be integers. Regarding the replacement algorithm, use '0' for 	Second Chance and '1' for LRU.
-For example: \
+For example: 
+
 	./something 5 10 1
 This means: a) 5 frames, b) 10 references as explained above, and c) executing the LRU 	algorithm.
 
