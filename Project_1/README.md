@@ -2,7 +2,7 @@ The project describes the implementation of a two-tier message exchange architec
 Processes P{1|2} receive and present data to the user. The input to processes P{1|2} is a text line entered as a message with the prospect of being sent to the other process (i.e., P1 → P2 or P2 → P1). If the message is entered in P1, it is "transmitted" from the underlying layers to P2. If the correctness of the message is verified, it is presented to the user of P2. Processes ENC1 and ENC2 receive messages from P{1|2}, calculate the checksum value of the given character string (message checksum), and then redirect the augmented message (plain + checksum) to the CHAN process, which simulates the transport network.
 
 
-
+![Picsart_24-01-10_06-07-59-423~2](https://github.com/JohnNDaras/OPERATING-SYSTEMS/assets/117290033/8eea8572-51da-45cb-935f-baca2daee69f)
 
 
 
