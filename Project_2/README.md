@@ -15,10 +15,12 @@ For example:
 	./something 5 10 1
 This means: a) 5 frames, b) 10 references as explained above, and c) executing the LRU 	algorithm.
 
-During execution, the following menu is displayed: \
+During execution, the following menu is displayed: 
+
     1. Insert \
     2. Show Hash Table \
-    3. Exit Program \
+    3. Exit Program 
+    
 You need to choose one of the options 1, 2, or 0. \
     • Option 1 reads the references, executes the selected replacement algorithm, and displays the precise execution of the algorithm. \
     • Option 2, which can be selected after option 1, shows the final form of the hash table, along with the total number of page faults, the number of times an element marked as "write(W)" was evicted from the list, and the number of W and R read from the two files. \
