@@ -17,8 +17,8 @@ This means: a) 5 frames, b) 10 references as explained above, and c) executing t
 
 During execution, the following menu is displayed: 
 
-    1. Insert \
-    2. Show Hash Table \
+    1. Insert 
+    2. Show Hash Table 
     3. Exit Program 
     
 You need to choose one of the options 1, 2, or 0. \
