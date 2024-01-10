@@ -5,7 +5,7 @@ Processes P{1|2} receive and present data to the user. The input to processes P{
 
 
 
-![Screenshot from 2023-12-11 11-59-32~2](https://github.com/JohnNDaras/OPERATING-SYSTEMS/assets/117290033/183e8dde-0a95-4321-893f-66c3ee069a0d)
+
 
 
 
