@@ -25,10 +25,10 @@
 #include <openssl/md5.h>
 
 struct shared_use_st {
-	int written_by_you;
-	char some_text[TEXT_SZ];
-	char text[TEXT_SZ];
-	char hash[20];
+     int written_by_you;
+     char some_text[TEXT_SZ];
+     char text[TEXT_SZ];
+     char hash[20];
 };
 
 
