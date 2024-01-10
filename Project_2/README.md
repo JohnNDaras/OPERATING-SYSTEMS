@@ -8,7 +8,7 @@ The program reads alternating sets of references (a total of q) from each trace 
 	gcc -o something proj2.c
 • To run the program, use the following format:
 
-	./something “number of frames” “number of references” “replacement 	algorithm”
+	./something “number of frames” “number of references” “replacement algorithm”
 Where all three arguments can be integers. Regarding the replacement algorithm, use '0' for 	Second Chance and '1' for LRU.
 For example: 
 
