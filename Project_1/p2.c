@@ -157,15 +157,15 @@ int main(int *argc, char **argv)
 				/*attach*/
      /////////////////////////////////////// ENC2-P2 /////////////////////////////////////////////////////////
      
-	shared_memory = shmat(shmid, (void *)0, 0);
+     shared_memory = shmat(shmid, (void *)0, 0);
      if (shared_memory == (void *)-1) {
 	     fprintf(stderr, "shmat failed\n");
 	     exit(EXIT_FAILURE);
      }
-      /*put in shared memory*/
-      shared_stuff = (struct shared_use_st *)shared_memory;
-      shared_stuff->written_by_you = 0;
-      while(running) {
+     /*put in shared memory*/
+     shared_stuff = (struct shared_use_st *)shared_memory;
+     shared_stuff->written_by_you = 0;
+     while(running) {
 
 	     if (sem_wait(spool_signal_sem) < 0)
 	     printf("Parent  : [sem_wait] Failed\n");
