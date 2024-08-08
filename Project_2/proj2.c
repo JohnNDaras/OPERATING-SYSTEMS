@@ -60,9 +60,6 @@ int main(int argc, char* argv[]){
     	int n, i, j, choice, search,y,w=3,dirty_bit,v=0,b,a=0,r=0,l=0,q, art=0, per=1,dyo=2,up=0,yp=0,c=1,writeback=0;
     	int hash_num, val;	
 	unsigned int framescount=atoi(argv[1]);
-	
-
-
 	int u=1,x;
     	//char const* const fileName = argv[1]; /* should check that argc > 1 */
     	FILE* file = fopen("bzip.trace", "r"); /* should check the result */
